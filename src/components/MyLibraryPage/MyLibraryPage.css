@@ -1,0 +1,92 @@
+.my-library {
+    padding: 20px;
+  }
+  
+  .book-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .book-link {
+    text-decoration: none;
+    color: inherit; 
+  }
+  .my-library {
+    padding: 20px;
+  }
+  
+  
+  .remove-button {
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333; 
+  }
+  .my-library {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.my-library h1 {
+    text-align: center;
+    font-size: 2.5rem; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.my-library p {
+    text-align: center; 
+    font-size: 1.2rem; 
+    color: #666; 
+}
+
+.my-library ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.my-library li {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    margin: 10px 0; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    transition: transform 0.2s; 
+}
+
+.my-library li:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.my-library button {
+    padding: 8px 12px; 
+    background-color: #e74c3c; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+.my-library button:hover {
+    background-color: #c0392b; 
+}
